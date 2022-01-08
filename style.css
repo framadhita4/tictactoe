@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 300px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 150px;
+}
+.main #cell {
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main #cell:nth-child(1),
+.main #cell:nth-child(2),
+.main #cell:nth-child(3){
+    border-top: none;
+}
+
+.main #cell:nth-child(1),
+.main #cell:nth-child(4),
+.main #cell:nth-child(7){
+    border-left: none;
+}
+
+.main #cell:nth-child(3),
+.main #cell:nth-child(6),
+.main #cell:nth-child(9){
+    border-right: none;
+}
+
+.main #cell:nth-child(7),
+.main #cell:nth-child(8),
+.main #cell:nth-child(9){
+    border-bottom: none;
+}
+
+.main .x:hover{
+    cursor: pointer;
+}
+.main .x:hover::before{
+    content: '';
+    background-color: lightgray;
+    width: 15px;
+    height: 90px;
+    position: absolute;
+    rotate: 45deg;
+}
+.main .x:hover::after{
+    content: '';
+    background-color: lightgray;
+    width: 15px;
+    height: 90px;
+    position: absolute;
+    rotate: -45deg;
+}
+
+.main .Px{
+    cursor: no-drop;
+}
+.main .Px::before{
+    content: '';
+    background-color: black;
+    width: 15px;
+    height: 90px;
+    position: absolute;
+    rotate: 45deg;
+}
+.main .Px::after{
+    content: '';
+    background-color: black;
+    width: 15px;
+    height: 90px;
+    position: absolute;
+    rotate: -45deg;
+}
+
+.main .Po::before{
+    content: '';
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+}
+.main .Po::after{
+    content: '';
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+.reset {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.reset h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.reset .but {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.reset .but:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.reset .but p{
+    margin-top: 12px;
+    font-size: 1.3em;
+}
