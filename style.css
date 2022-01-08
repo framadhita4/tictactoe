@@ -55,6 +55,10 @@
     width: 15px;
     height: 90px;
     position: absolute;
+    -webkit-rotate: 45deg;
+    -moz-rotate: 45deg;
+    -ms-rotate: 45deg;
+    -o-rotate: 45deg;
     rotate: 45deg;
 }
 .main .x:hover::after{
@@ -63,6 +67,10 @@
     width: 15px;
     height: 90px;
     position: absolute;
+    -webkit-rotate: -45deg;
+    -moz-rotate: -45deg;
+    -ms-rotate: -45deg;
+    -o-rotate: -45deg;
     rotate: -45deg;
 }
 
@@ -75,6 +83,10 @@
     width: 15px;
     height: 90px;
     position: absolute;
+    -webkit-rotate: 45deg;
+    -moz-rotate: 45deg;
+    -ms-rotate: 45deg;
+    -o-rotate: 45deg;
     rotate: 45deg;
 }
 .main .Px::after{
@@ -83,6 +95,10 @@
     width: 15px;
     height: 90px;
     position: absolute;
+    -webkit-rotate: -45deg;
+    -moz-rotate: -45deg;
+    -ms-rotate: -45deg;
+    -o-rotate: -45deg;
     rotate: -45deg;
 }
 
