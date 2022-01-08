@@ -23,8 +23,8 @@ TicTacToeAi.prototype.bestMove = function() {
             }
         }
     }
-    onLoad()
     board.template[bMove] = 'o'
+    onLoad()
     let item = document.querySelectorAll('#cell')[bMove];
     item.className = "Po"
 }

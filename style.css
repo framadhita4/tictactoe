@@ -55,11 +55,11 @@
     width: 15px;
     height: 90px;
     position: absolute;
-    -webkit-rotate: 45deg;
-    -moz-rotate: 45deg;
-    -ms-rotate: 45deg;
-    -o-rotate: 45deg;
-    rotate: 45deg;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
 }
 .main .x:hover::after{
     content: '';
@@ -67,11 +67,11 @@
     width: 15px;
     height: 90px;
     position: absolute;
-    -webkit-rotate: -45deg;
-    -moz-rotate: -45deg;
-    -ms-rotate: -45deg;
-    -o-rotate: -45deg;
-    rotate: -45deg;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
 }
 
 .main .Px{
@@ -83,11 +83,11 @@
     width: 15px;
     height: 90px;
     position: absolute;
-    -webkit-rotate: 45deg;
-    -moz-rotate: 45deg;
-    -ms-rotate: 45deg;
-    -o-rotate: 45deg;
-    rotate: 45deg;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
 }
 .main .Px::after{
     content: '';
@@ -95,11 +95,11 @@
     width: 15px;
     height: 90px;
     position: absolute;
-    -webkit-rotate: -45deg;
-    -moz-rotate: -45deg;
-    -ms-rotate: -45deg;
-    -o-rotate: -45deg;
-    rotate: -45deg;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
 }
 
 .main .Po::before{
